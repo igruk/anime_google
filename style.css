@@ -1,0 +1,80 @@
+* {
+  font-family: calibri;
+}
+
+.body {
+  margin: 120px auto 0;
+  border-color: rgb(250, 190, 235);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(150, 0, 113);
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div {
+  padding: 0px 10px
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px 10px 0px 10px;
+}
+
+.fsearch {
+  margin: 20px auto 0;
+  display: flex;
+  font-size: 20px;
+  padding-left: 50px;
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(150, 0, 113);
+  width: 500px;
+  height: 40px;
+  background-image: url(lupa_google.png);
+  background-position: 4px 4px;
+  background-repeat: no-repeat;
+}
+
+.fsearch:hover {
+  border-color: rgb(250, 190, 235);
+  box-shadow: 0 0 10px rgb(150, 0, 113);
+}
+
+.fsearch:focus {
+  outline: none;
+  border-color: rgb(250, 190, 235);
+  box-shadow: 0 0 10px rgb(150, 0, 113);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  text-align: center;
+  margin: 20px 10px 0;
+  cursor: pointer;
+  color: rgb(150, 0, 113);
+  border-radius: 5px;
+  border-color: rgb(150, 0, 113);
+  border-width: 0px;
+  font-size: 20px;
+  padding: 3px 10px;
+  background-color: rgb(251, 230, 244);
+}
+
+.button:hover {
+  margin: 19px 9px 0;
+  border-width: 1px;
+}
